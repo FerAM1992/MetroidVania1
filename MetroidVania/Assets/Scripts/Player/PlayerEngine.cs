@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,7 +24,15 @@ public class PlayerEngine : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Move();
+        Jump();
 	}
+
+    private void Jump()
+    {
+       
+    }
+
+    
 
     private void Move()
     {
