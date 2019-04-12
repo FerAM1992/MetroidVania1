@@ -2,55 +2,59 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerEngine : MonoBehaviour {
 
-
+    //Config
     [Header("Player Attributes")]
     [SerializeField] float movementSpeed = 10f;
+    [SerializeField] float jumpSpeed = 5f;
 
-    private float deltaX;
-    private float deltaY;
-    float xMin;
-    float xMax;
-    float yMin;
-    float yMax;
+    //State
+    bool isAlive = true;
+
+    //cached component references
+    Animator playerAnimator;
+
 
     // Use this for initialization
     void Start () {
-        setUpMoveBoundaries();
+        playerAnimator = GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
 	void Update () {
         Move();
-        Jump();
-	}
-
-    private void Jump()
-    {
-       
+        jump();
+        flipPlayerSprite();
     }
 
-    
 
     private void Move()
     {
-        float deltaMovement = Time.deltaTime * movementSpeed;
-        deltaX = Input.GetAxis("Horizontal") * deltaMovement;
-        var newPositionY = Mathf.Clamp(transform.position.y, xMin, xMax);
-        var newPositionX = Mathf.Clamp(transform.position.x + deltaX, xMin, xMax);
-        transform.position = new Vector2(newPositionX, newPositionY);
+        float flowControl = CrossPlatformInputManager.GetAxis("Horizontal") * movementSpeed;
+        Vector2 playerVelocity = new Vector2(flowControl, GetComponent<Rigidbody2D>().velocity.y);
+        GetComponent<Rigidbody2D>().velocity = playerVelocity;
+        playerAnimator.SetBool("Running", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon);
     }
 
 
-    private void setUpMoveBoundaries()
-    {
-        Camera gameCamera = Camera.main;
-        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0.05f, 0, 0)).x;
-        xMax = gameCamera.ViewportToWorldPoint(new Vector3(0.95f, 0, 0)).x;
-        yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0.02f, 0)).y;
-        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 0.5f, 0)).y;
+
+    private void jump() {
+        Vector2 jumpVector = new Vector2(0f, jumpSpeed);
+        if (CrossPlatformInputManager.GetButton("Jump")) {
+            GetComponent<Rigidbody2D>().velocity += jumpVector;
+        }
     }
+
+    private void flipPlayerSprite() {
+        bool playerHasHorizontalSpeed = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon; // this means that of the player moves no matter which side
+        if (playerHasHorizontalSpeed) {
+            transform.localScale = new Vector2(Mathf.Sign(GetComponent<Rigidbody2D>().velocity.x),1f); // this is taking the direction of the movement and fliping the sprite accordingly
+        }
+    }
+    
 
 }
