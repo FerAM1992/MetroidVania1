@@ -48,6 +48,8 @@ public class PlayerEngine : MonoBehaviour {
         if (GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ground"))) {
             playerAnimator.SetBool("Running",
             Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon);
+        } else if (GetComponent<Rigidbody2D>().velocity.x == 0) {
+            playerAnimator.SetBool("Running",false);
         }
         
         
@@ -57,19 +59,24 @@ public class PlayerEngine : MonoBehaviour {
 
 
     private void jump() {
-      
-        if (GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ground")) 
-            || GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ladder"))) {
-            playerAnimator.SetBool("Jumping", false);
-            if (CrossPlatformInputManager.GetButton("Jump")) {
-                if (GetComponent<Rigidbody2D>().velocity.y <= maximumJumpVelocity) {
-                    GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpForce;
+        
+            if (GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ground"))
+            || GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ladder")))
+            {
+                
+                if (CrossPlatformInputManager.GetButtonDown("Jump"))
+                {
+                    if (GetComponent<Rigidbody2D>().velocity.y <= maximumJumpVelocity)
+                    {
+                        GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpForce;
+                    }
+                    
+                    jumped = true;
                 }
-                playerAnimator.SetBool("Jumping", true);
-                jumped = true;
-            }
-            
+            playerAnimator.SetBool("Jumping", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y) > Mathf.Epsilon);
         }
+        
+        
     }
 
     private void flipPlayerSprite() {
@@ -105,7 +112,12 @@ public class PlayerEngine : MonoBehaviour {
 
     private void checkGround()
     {
+        print(GetComponent<Rigidbody2D>().velocity);
+        
+            playerAnimator.SetBool("Iddling", GetComponent<Rigidbody2D>().velocity.Equals(new Vector2(0, 0)));
+        
         playerAnimator.SetBool("isGrounded", GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ground")));
+        
     }
 
 }
