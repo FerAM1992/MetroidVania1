@@ -13,15 +13,22 @@ public class PlayerEngine : MonoBehaviour {
     [SerializeField] float jumpForce = 5f;
     [SerializeField] float climbingSpeed = 3.5f;
     [SerializeField] float maximumJumpVelocity = 7.5f;
+    [SerializeField] float frontCollisionDetectionRadious = 0.3f;
+    [SerializeField] float groundCollisionDetectionRadious = 0.1f;
 
     //State
     bool isAlive = true;
     bool jumped = false;
+    bool canJump = true;
+    bool wallRayChecker;
+    bool groundRayChecker;
 
     //cached component references
     Animator playerAnimator;
     float initialGravityScale;
 
+
+    [SerializeField] float fallingGravityMulti = 2.5f;
 
     // Use this for initialization
     void Start () {
@@ -31,7 +38,7 @@ public class PlayerEngine : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
+        RayCheck();
         checkGround();
         Move();
         jump();
@@ -45,36 +52,32 @@ public class PlayerEngine : MonoBehaviour {
         float flowControl = CrossPlatformInputManager.GetAxis("Horizontal") * movementSpeed;
         Vector2 moveVelocity = new Vector2(flowControl, GetComponent<Rigidbody2D>().velocity.y);
         GetComponent<Rigidbody2D>().velocity = moveVelocity;
-        if (GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ground"))) {
+        if (groundRayChecker) {
             playerAnimator.SetBool("Running",
             Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon);
         } else if (GetComponent<Rigidbody2D>().velocity.x == 0) {
             playerAnimator.SetBool("Running",false);
         }
-        
-        
-        
     }
 
 
 
     private void jump() {
-        
-            if (GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ground"))
+       
+
+         if (groundRayChecker
             || GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ladder")))
             {
-                
                 if (CrossPlatformInputManager.GetButtonDown("Jump"))
                 {
                     if (GetComponent<Rigidbody2D>().velocity.y <= maximumJumpVelocity)
                     {
                         GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpForce;
                     }
-                    
                     jumped = true;
                 }
-            playerAnimator.SetBool("Jumping", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y) > Mathf.Epsilon);
-        }
+                playerAnimator.SetBool("Jumping", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y) > Mathf.Epsilon);
+            }
         
         
     }
@@ -112,12 +115,50 @@ public class PlayerEngine : MonoBehaviour {
 
     private void checkGround()
     {
-        print(GetComponent<Rigidbody2D>().velocity);
-        
-            playerAnimator.SetBool("Iddling", GetComponent<Rigidbody2D>().velocity.Equals(new Vector2(0, 0)));
-        
-        playerAnimator.SetBool("isGrounded", GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ground")));
-        
+        playerAnimator.SetBool("Iddling", GetComponent<Rigidbody2D>().velocity.Equals(new Vector2(0, 0)));
+        playerAnimator.SetBool("isGrounded", groundRayChecker);
     }
+
+
+    
+
+    private void RayCheck()
+    {
+        int layerMask = 1 << LayerMask.NameToLayer("Ground");
+        Vector2 verticalDirection;
+
+        if (transform.localScale.x == 1)
+        {
+            verticalDirection = transform.TransformDirection(Vector2.right);
+        }
+        else {
+            verticalDirection = transform.TransformDirection(Vector2.left);
+        }
+       
+        Debug.DrawRay(transform.position, transform.TransformDirection(Vector2.right) , Color.yellow);
+        wallRayChecker = Physics2D.Raycast(transform.position, verticalDirection, frontCollisionDetectionRadious, layerMask);
+        playerAnimator.SetBool("RayTouchingWall", wallRayChecker);
+
+
+        Vector2 threeQuarterVector = new Vector2(transform.position.x + .25f, transform.position.y);
+        Vector2 oneQuarterVector = new Vector2(transform.position.x - 0.25f, transform.position.y);
+        Vector2 middleVector = new Vector2(transform.position.x, transform.position.y);
+
+        Debug.DrawRay(threeQuarterVector, transform.TransformDirection(Vector2.down), Color.blue);
+        Debug.DrawRay(oneQuarterVector, transform.TransformDirection(Vector2.down), Color.blue);
+        Debug.DrawRay(middleVector, transform.TransformDirection(Vector2.down), Color.blue);
+
+        groundRayChecker = Physics2D.Raycast(threeQuarterVector, transform.TransformDirection(Vector2.down), 
+            groundCollisionDetectionRadious, layerMask) || Physics2D.Raycast(oneQuarterVector, transform.TransformDirection(Vector2.down),
+            groundCollisionDetectionRadious, layerMask) || Physics2D.Raycast(middleVector, transform.TransformDirection(Vector2.down),
+            groundCollisionDetectionRadious, layerMask);
+        playerAnimator.SetBool("RayIsTouchingGround", groundRayChecker);
+
+      
+
+    }
+
+
+
 
 }
