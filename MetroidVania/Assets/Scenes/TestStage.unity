@@ -6490,8 +6490,6 @@ MonoBehaviour:
   jumpForce: 12.5
   climbingSpeed: 5.31
   maximumJumpVelocity: 9
-  frontCollisionDetectionRadious: 0.7
-  groundCollisionDetectionRadious: 1
   fallingGravityMulti: 2.5
 --- !u!114 &1302456097
 MonoBehaviour:
@@ -6507,6 +6505,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fallingGravityMulti: 2.5
   lowJumpGravityMult: 2
+--- !u!114 &1302456098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302456090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9a26bdb676c424481164326bf9357e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundRaysNumber: 4
+  frontCollisionDetectionRadious: 0.7
+  groundCollisionDetectionRadious: 0.63
 --- !u!1 &1404695589
 GameObject:
   m_ObjectHideFlags: 0
