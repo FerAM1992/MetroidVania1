@@ -1,0 +1,6105 @@
+fileFormatVersion: 2
+guid: a932a68027307e7418502a225ba1ff61
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: supermetroidsamus_0
+    21300002: supermetroidsamus_1
+    21300004: supermetroidsamus_2
+    21300006: supermetroidsamus_3
+    21300008: supermetroidsamus_4
+    21300010: supermetroidsamus_5
+    21300012: supermetroidsamus_6
+    21300014: supermetroidsamus_7
+    21300016: supermetroidsamus_8
+    21300018: supermetroidsamus_9
+    21300020: supermetroidsamus_10
+    21300022: supermetroidsamus_11
+    21300024: supermetroidsamus_12
+    21300026: supermetroidsamus_13
+    21300028: supermetroidsamus_14
+    21300030: supermetroidsamus_15
+    21300032: supermetroidsamus_16
+    21300034: supermetroidsamus_17
+    21300036: supermetroidsamus_18
+    21300038: supermetroidsamus_19
+    21300040: supermetroidsamus_20
+    21300042: supermetroidsamus_21
+    21300044: supermetroidsamus_22
+    21300046: supermetroidsamus_23
+    21300048: supermetroidsamus_24
+    21300050: supermetroidsamus_25
+    21300052: supermetroidsamus_26
+    21300054: supermetroidsamus_27
+    21300056: supermetroidsamus_28
+    21300058: supermetroidsamus_29
+    21300060: supermetroidsamus_30
+    21300062: supermetroidsamus_31
+    21300064: supermetroidsamus_32
+    21300066: supermetroidsamus_33
+    21300068: supermetroidsamus_34
+    21300070: supermetroidsamus_35
+    21300072: supermetroidsamus_36
+    21300074: supermetroidsamus_37
+    21300076: supermetroidsamus_38
+    21300078: supermetroidsamus_39
+    21300080: supermetroidsamus_40
+    21300082: supermetroidsamus_41
+    21300084: supermetroidsamus_42
+    21300086: supermetroidsamus_43
+    21300088: supermetroidsamus_44
+    21300090: supermetroidsamus_45
+    21300092: supermetroidsamus_46
+    21300094: supermetroidsamus_47
+    21300096: supermetroidsamus_48
+    21300098: supermetroidsamus_49
+    21300100: supermetroidsamus_50
+    21300102: supermetroidsamus_51
+    21300104: supermetroidsamus_52
+    21300106: supermetroidsamus_53
+    21300108: supermetroidsamus_54
+    21300110: supermetroidsamus_55
+    21300112: supermetroidsamus_56
+    21300114: supermetroidsamus_57
+    21300116: supermetroidsamus_58
+    21300118: supermetroidsamus_59
+    21300120: supermetroidsamus_60
+    21300122: supermetroidsamus_61
+    21300124: supermetroidsamus_62
+    21300126: supermetroidsamus_63
+    21300128: supermetroidsamus_64
+    21300130: supermetroidsamus_65
+    21300132: supermetroidsamus_66
+    21300134: supermetroidsamus_67
+    21300136: supermetroidsamus_68
+    21300138: supermetroidsamus_69
+    21300140: supermetroidsamus_70
+    21300142: supermetroidsamus_71
+    21300144: supermetroidsamus_72
+    21300146: supermetroidsamus_73
+    21300148: supermetroidsamus_74
+    21300150: supermetroidsamus_75
+    21300152: supermetroidsamus_76
+    21300154: supermetroidsamus_77
+    21300156: supermetroidsamus_78
+    21300158: supermetroidsamus_79
+    21300160: supermetroidsamus_80
+    21300162: supermetroidsamus_81
+    21300164: supermetroidsamus_82
+    21300166: supermetroidsamus_83
+    21300168: supermetroidsamus_84
+    21300170: supermetroidsamus_85
+    21300172: supermetroidsamus_86
+    21300174: supermetroidsamus_87
+    21300176: supermetroidsamus_88
+    21300178: supermetroidsamus_89
+    21300180: supermetroidsamus_90
+    21300182: supermetroidsamus_91
+    21300184: supermetroidsamus_92
+    21300186: supermetroidsamus_93
+    21300188: supermetroidsamus_94
+    21300190: supermetroidsamus_95
+    21300192: supermetroidsamus_96
+    21300194: supermetroidsamus_97
+    21300196: supermetroidsamus_98
+    21300198: supermetroidsamus_99
+    21300200: supermetroidsamus_100
+    21300202: supermetroidsamus_101
+    21300204: supermetroidsamus_102
+    21300206: supermetroidsamus_103
+    21300208: supermetroidsamus_104
+    21300210: supermetroidsamus_105
+    21300212: supermetroidsamus_106
+    21300214: supermetroidsamus_107
+    21300216: supermetroidsamus_108
+    21300218: supermetroidsamus_109
+    21300220: supermetroidsamus_110
+    21300222: supermetroidsamus_111
+    21300224: supermetroidsamus_112
+    21300226: supermetroidsamus_113
+    21300228: supermetroidsamus_114
+    21300230: supermetroidsamus_115
+    21300232: supermetroidsamus_116
+    21300234: supermetroidsamus_117
+    21300236: supermetroidsamus_118
+    21300238: supermetroidsamus_119
+    21300240: supermetroidsamus_120
+    21300242: supermetroidsamus_121
+    21300244: supermetroidsamus_122
+    21300246: supermetroidsamus_123
+    21300248: supermetroidsamus_124
+    21300250: supermetroidsamus_125
+    21300252: supermetroidsamus_126
+    21300254: supermetroidsamus_127
+    21300256: supermetroidsamus_128
+    21300258: supermetroidsamus_129
+    21300260: supermetroidsamus_130
+    21300262: supermetroidsamus_131
+    21300264: supermetroidsamus_132
+    21300266: supermetroidsamus_133
+    21300268: supermetroidsamus_134
+    21300270: supermetroidsamus_135
+    21300272: supermetroidsamus_136
+    21300274: supermetroidsamus_137
+    21300276: supermetroidsamus_138
+    21300278: supermetroidsamus_139
+    21300280: supermetroidsamus_140
+    21300282: supermetroidsamus_141
+    21300284: supermetroidsamus_142
+    21300286: supermetroidsamus_143
+    21300288: supermetroidsamus_144
+    21300290: supermetroidsamus_145
+    21300292: supermetroidsamus_146
+    21300294: supermetroidsamus_147
+    21300296: supermetroidsamus_148
+    21300298: supermetroidsamus_149
+    21300300: supermetroidsamus_150
+    21300302: supermetroidsamus_151
+    21300304: supermetroidsamus_152
+    21300306: supermetroidsamus_153
+    21300308: supermetroidsamus_154
+    21300310: supermetroidsamus_155
+    21300312: supermetroidsamus_156
+    21300314: supermetroidsamus_157
+    21300316: supermetroidsamus_158
+    21300318: supermetroidsamus_159
+    21300320: supermetroidsamus_160
+    21300322: supermetroidsamus_161
+    21300324: supermetroidsamus_162
+    21300326: supermetroidsamus_163
+    21300328: supermetroidsamus_164
+    21300330: supermetroidsamus_165
+    21300332: supermetroidsamus_166
+    21300334: supermetroidsamus_167
+    21300336: supermetroidsamus_168
+    21300338: supermetroidsamus_169
+    21300340: supermetroidsamus_170
+    21300342: supermetroidsamus_171
+    21300344: supermetroidsamus_172
+    21300346: supermetroidsamus_173
+    21300348: supermetroidsamus_174
+    21300350: supermetroidsamus_175
+    21300352: supermetroidsamus_176
+    21300354: supermetroidsamus_177
+    21300356: supermetroidsamus_178
+    21300358: supermetroidsamus_179
+    21300360: supermetroidsamus_180
+    21300362: supermetroidsamus_181
+    21300364: supermetroidsamus_182
+    21300366: supermetroidsamus_183
+    21300368: supermetroidsamus_184
+    21300370: supermetroidsamus_185
+    21300372: supermetroidsamus_186
+    21300374: supermetroidsamus_187
+    21300376: supermetroidsamus_188
+    21300378: supermetroidsamus_189
+    21300380: supermetroidsamus_190
+    21300382: supermetroidsamus_191
+    21300384: supermetroidsamus_192
+    21300386: supermetroidsamus_193
+    21300388: supermetroidsamus_194
+    21300390: supermetroidsamus_195
+    21300392: supermetroidsamus_196
+    21300394: supermetroidsamus_197
+    21300396: supermetroidsamus_198
+    21300398: supermetroidsamus_199
+    21300400: supermetroidsamus_200
+    21300402: supermetroidsamus_201
+    21300404: supermetroidsamus_202
+    21300406: supermetroidsamus_203
+    21300408: supermetroidsamus_204
+    21300410: supermetroidsamus_205
+    21300412: supermetroidsamus_206
+    21300414: supermetroidsamus_207
+    21300416: supermetroidsamus_208
+    21300418: supermetroidsamus_209
+    21300420: supermetroidsamus_210
+    21300422: supermetroidsamus_211
+    21300424: supermetroidsamus_212
+    21300426: supermetroidsamus_213
+    21300428: supermetroidsamus_214
+    21300430: supermetroidsamus_215
+    21300432: supermetroidsamus_216
+    21300434: supermetroidsamus_217
+    21300436: supermetroidsamus_218
+    21300438: supermetroidsamus_219
+    21300440: supermetroidsamus_220
+    21300442: supermetroidsamus_221
+    21300444: supermetroidsamus_222
+    21300446: supermetroidsamus_223
+    21300448: supermetroidsamus_224
+    21300450: supermetroidsamus_225
+    21300452: supermetroidsamus_226
+    21300454: supermetroidsamus_227
+    21300456: supermetroidsamus_228
+    21300458: supermetroidsamus_229
+    21300460: supermetroidsamus_230
+    21300462: supermetroidsamus_231
+    21300464: supermetroidsamus_232
+    21300466: supermetroidsamus_233
+    21300468: supermetroidsamus_234
+    21300470: supermetroidsamus_235
+    21300472: supermetroidsamus_236
+    21300474: supermetroidsamus_237
+    21300476: supermetroidsamus_238
+    21300478: supermetroidsamus_239
+    21300480: supermetroidsamus_240
+    21300482: supermetroidsamus_241
+    21300484: supermetroidsamus_242
+    21300486: supermetroidsamus_243
+    21300488: supermetroidsamus_244
+    21300490: supermetroidsamus_245
+    21300492: supermetroidsamus_246
+    21300494: supermetroidsamus_247
+    21300496: supermetroidsamus_248
+    21300498: supermetroidsamus_249
+    21300500: supermetroidsamus_250
+    21300502: supermetroidsamus_251
+    21300504: supermetroidsamus_252
+    21300506: supermetroidsamus_253
+    21300508: supermetroidsamus_254
+    21300510: supermetroidsamus_255
+    21300512: supermetroidsamus_256
+    21300514: supermetroidsamus_257
+    21300516: supermetroidsamus_258
+    21300518: supermetroidsamus_259
+    21300520: supermetroidsamus_260
+    21300522: supermetroidsamus_261
+    21300524: supermetroidsamus_262
+    21300526: supermetroidsamus_263
+    21300528: supermetroidsamus_264
+    21300530: supermetroidsamus_265
+    21300532: supermetroidsamus_266
+    21300534: supermetroidsamus_267
+    21300536: supermetroidsamus_268
+    21300538: supermetroidsamus_269
+    21300540: supermetroidsamus_270
+    21300542: supermetroidsamus_271
+    21300544: supermetroidsamus_272
+    21300546: supermetroidsamus_273
+    21300548: supermetroidsamus_274
+    21300550: supermetroidsamus_275
+    21300552: supermetroidsamus_276
+    21300554: supermetroidsamus_277
+    21300556: supermetroidsamus_278
+    21300558: supermetroidsamus_279
+    21300560: supermetroidsamus_280
+    21300562: supermetroidsamus_281
+    21300564: supermetroidsamus_282
+    21300566: supermetroidsamus_283
+    21300568: supermetroidsamus_284
+    21300570: supermetroidsamus_285
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: supermetroidsamus_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 545
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a0786c489e933498bf2587b2695f37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 545
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f557f6b25294fb14ea8a2af4bc78a383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 545
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f18cbe82d24d043a5fd06b3fa276a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 545
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e899a5aefbba334fa61050644dac265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 545
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec0fd031badc414b934e67f172f6ae7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 545
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ee203adbd554f4db57821a4f356936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 579
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90827f4bf50ee184987625e1cd69e994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_7
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 565
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eced111b2547dc4f9c360999354736c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_8
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 565
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17a54ef435b2b54cbde914813c41f64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 565
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f477222f8756fe740a16c5a53513aabf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_10
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 578
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445c924775b211e4faecc9bb8d670053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_11
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 583
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0609acaad1538540ac727268dff2fb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_12
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 580
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bf734dcb4e3b0429894ef52f8d040f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_13
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 583
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05008ca18fc0be42ba3bed72f1d7568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_14
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 578
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17143ab4169764e44a5676e8003fda37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 568
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af525c848c54094981fef67d6fff5b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_16
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 568
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a93a9f7c686574f85d5012e80f9f84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 569
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebf40c4bd1179f4ea7eb944ed628df6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 567
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac73455fbabe9343bb844302ff54725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 564
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879af25420d1e904996b687f73bee8ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 563
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db976162b2305304490e363a07f30be6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_21
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 563
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eca8b7f3ea81ed43a623286173c2ad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 563
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aad7874b56bff479acbcdb7e173b26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_23
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 565
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5690d49ac09904888e13b040695cb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 561
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3e97e0acc46a843828bd34da781364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 565
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760e1680afe956148bb421d25b7dadfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_26
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 565
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85a1d5abfd6f90479134ab34d410334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 565
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00765982fed5b149b9faa2b83594349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 565
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5116bb1f1698a4e42bf9374277a1eb61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_29
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 565
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c9c1527b2935841ad4c8aad24ea53b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72efc100a9eac843b31032bdf99ed85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_31
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 566
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5b115507ef8f840baef9c03096b2bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 567
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d74d2085c6a2fe4d8d4606478525c94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_33
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 555
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3209bf54463d374c973ec25e1af8f7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_34
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 553
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f271f6b17d5f6954d93eb4e4a82a6238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_35
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 549
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c503588c3e219c849aa341456a773b13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_36
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 558
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2955437be49964d90b320a0e06177d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_37
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 491
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac15fc91380da45a6e5109dcb42340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_38
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 546
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd342fe007787294ea0ef667fb22060c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_39
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 498
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e51b5bc812e67488d385f2c25f3d30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_40
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 505
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45de435878f47294ab801d4c446fe2dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_41
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 486
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d325d53f55fa0045b1bba380dfa5179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_42
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 489
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5758ebc91e80e4098be686b3aea076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_43
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 489
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ac682833ec995428a308aedc7b7a9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_44
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 490
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301470cb69c99ae47b0d8be152405b33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_45
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 492
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7106e002623fe541b694c13d2589571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_46
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 539
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1e504a5f2b4947b74f0b456248a5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_47
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 522
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058a27bdd17ab444fb430b56702bdb79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 489
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f61f9e53acf5c4ea765a11c01d33b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_49
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 489
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b134cfbfe2841244b9247e86aef1dfd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 489
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247cf502177605e4987a2f2dbef4a754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_51
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 489
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37b9a69ba7450049b4cceba0feea3ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_52
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 489
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd81b3ae9bc86b46bc7d46bed20a1bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 489
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe02ebd746b0f84eab93a302d793d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 489
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ca90db3d12047499919bb72c159eac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 489
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d6dc6e7c454834791228cac056eb83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_56
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 489
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5176fb85f6ca24845b5f603e4471580c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_57
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 487
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27383986039e654ba759760febf265f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_58
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 487
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393a3c20960f7ea4a8d67f40b2d71044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_59
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 487
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d967f4ec4a9ed0a4ab9f27d4933c828b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_60
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 487
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2a4b7a01efd794996bddeedb63e713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_61
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 487
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1557d7da389140419d33919c7777b46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_62
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 489
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf2b80e6783ade44971e7b4ea4c5528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_63
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 489
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f71828e45027e48975ba6229211b6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_64
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 489
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36adc5937fb80c242aae82ed7f1b9942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_65
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 492
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ad4ec0a3db0d43a10cebfa6cba544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_66
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 492
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481402746e145f843bda6870cec78870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_67
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 527
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c052b7c9972074caf1937b1ce27cc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_68
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 516
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439d45fa7179d0547aa0a52f15281d87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_69
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 486
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d9629d2a58cfd49b53f8753077f7ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_70
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 486
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f425b7ccae5c3042a40e097e7648d34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_71
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 487
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750947351c978854bb811f71356eb817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_72
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 487
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70423788b7fb1c409e605d08f748119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_73
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 517
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d300950cc14a4d879964ed3d268c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_74
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 519
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df43d91d7ad53e0469fd9d180399235a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_75
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 489
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341dfe9a2edb1e4489a7b97f277b9aa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_76
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 425
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9c44c25e83b1847bc8cc38566e232e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_77
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 425
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b913b74d2391b44a134965d471d3bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_78
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 425
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98fe15357168384db0056fb42fc1de2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_79
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 425
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72258df8b19251b46814416aac8b7303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_80
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 425
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537f3987cda6bf440998e44a48606d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_81
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 425
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcd0f10b74b5294fba9debad0b1eb24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_82
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 425
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cb4d1efd76a1242931ae0ae69c6200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_83
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 425
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f7c4e2e49617848b7ab155da94288b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_84
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 425
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfea015fe66ce548b6697c9d28207d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_85
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 435
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b84dba7bbad3d4c9bba901a503111d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_86
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 435
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088103eb2a08f194595209d3edc68e98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_87
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 435
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf61bd8544b0ac54ea0534f5d5ea01ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_88
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 435
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2d9acd82f893d44b2461f21f7ec0c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_89
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 435
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dfa901a5ebdeb4da6b768777e721cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_90
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 435
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b679aa4a416db44ad322c48efad25b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_91
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 435
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27db4055f0e86d458ba19805328abf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_92
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 435
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7be4ef531c62645bce4bd5643b64dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_93
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 433
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb267e1abafc5d3498d6b7462e548469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_94
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 433
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6ce02d7b23f0648a03c47b08240821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_95
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 433
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d8d624519bc342823501446a8cd0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_96
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 432
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f96149c4b611540a883ea2650d86f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_97
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 432
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d6be23bb1d67b4bb1077396e4fe157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_98
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 432
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b178629ee071400408cc60d781122cd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_99
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 431
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459f667d9e7d1534d8602c8dbba09b0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_100
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 432
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da02c6c499432d40aee4f83dc3d7417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_101
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 434
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5c5ce55655f204f8913d0eb0330e75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_102
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 434
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea9f8b42557e04aacb25cbab705d3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_103
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 435
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256abef105090974d9b01d2e15c54c4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_104
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 369
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80906ba28c81b72499de4355e2603488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_105
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 369
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e27c605803b11d47808b9de05406ac9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_106
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 369
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6145d17ef4b40cf47b205a4ffb84dcb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_107
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 369
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a485aefe0df07074b8b6b850ea85f1e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_108
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 369
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6199aea6a63214fa80d80f1a66831e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_109
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 369
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf88ef3abb947048ae78f8009fa44b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_110
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 369
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b734ae1d9d31da4f8ee5233c1e255f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_111
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 368
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172eb90e18670cf4da1780b7dc7f3e37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_112
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 368
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d643f8dfe7b38469f645bc6d4d4031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_113
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 375
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9677570ca4dadb48b9f4f41708c4599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_114
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 385
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5792442656e314280a37ce828afca5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_115
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 385
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5ef39de26b6f845b1e77e000f313a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_116
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 385
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c126be61ef5954096978c05e727302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_117
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 385
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f21c1889b774e45ac1d0988a6ce06f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_118
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 385
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9c2efdf45269342ae1138884897408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_119
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 385
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4006485c505b49be5b37d4d485b70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_120
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 385
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec2ee669e06a4448979027079245a11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_121
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 385
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b84f7ddb1abfa04f8e104cbc8384e7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_122
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 385
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f5f149fd8e5e941b57d849191257bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_123
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 385
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4060c60781fb194c9a8e70c5ffa919d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_124
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 385
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f01c4aebf561f5488833cea94bea88f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_125
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 385
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4195c07a437c704897e3e5efa56ab0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_126
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 385
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf65eb2d14a0b14fbcc5e7283943322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_127
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 385
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7cfea28cbba4847a0cce21c0fe98b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_128
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 385
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9171bdf0974034e81e78756b1a0ced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_129
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 385
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c232570f395144783901a30070b677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_130
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 385
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f022db8c37cf06b41833b925a8f24585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_131
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 385
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a4955549c63b24086c8824882f39c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_132
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 325
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b77ac94388196429dd6fef91b07b26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_133
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 325
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8d3abb2b7f3374da4fab205af82d03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_134
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 325
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1cd016c63d37a45953ce8fa0857a6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 325
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a8d80bef274444a3ecaccf74d9fe0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_136
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 325
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f20b40e07eb4e49909a2a523668db1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_137
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 325
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6725a3cad80a72d4a9be31f225666783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_138
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 324
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b83c87fa7512904abb7de7fbcd53e3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_139
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 325
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d58db4810c2f8478767adc4d219d63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_140
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 325
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8145895b68ea41f41ae64ebc7818a612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_141
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 321
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6d6768d0efe3246b7c350e02822fdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_142
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 321
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a14df71a86f0847a42d160e13b9c6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_143
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 321
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8178a0d544442ff4e8a8a4d342761d75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_144
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 321
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8453de789b057854ea63d69a37015b66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_145
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 321
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44aa897edc9e1d34fbe2e7b2c3c4210f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_146
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 321
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daca51a7ce89b4a428c3b1470266facf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_147
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 321
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86cf1808df640846a3b1a10c430133e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_148
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 321
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc757e9bfcb409c4e876ab143aefb2fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_149
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 321
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54af6a87885c1e842b4c7dff782a79af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_150
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 321
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c996e960d9de4c47a6e620515daf825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_151
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 321
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f278946c831c27409fc403b922394cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_152
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 321
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60b0b5d3662634488db91c0f79720b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_153
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 321
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6102c5f3c250e7e4c8ccdc4585f269f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_154
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 321
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b87875c14b04740aaa94cbcd3144bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_155
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 321
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b69ead1c365f434d95ae9edf5d60fbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_156
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 321
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4cf275301414f4594297ba667bba6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_157
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 321
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ce405d021c89445a9d17efd7c7d5e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_158
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 265
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedd1e44f3f32684d8aacd051b08e370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_159
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 265
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6935979f1453c441aa49865cc4af0ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_160
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 265
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eba9f84f16feca4dab81331679053f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_161
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 265
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40627883aa1d6c469617522ede5211a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_162
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 265
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d70468b4e00b044af1f0b31f5a9db1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_163
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 265
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e741b4111496058499d65da6d6a12d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_164
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 265
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2437906f71be1934abbb45b0622c95a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_165
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 265
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19affbd6e9f8604396ca30b47c26591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_166
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 265
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0367de54e121c1a4ba052ce9a5bd30e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_167
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 265
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d862bac3b7bf040b862139551a6835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_168
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 257
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb13a8f83da48943928d0339fb5fe48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_169
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 257
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c66cb161d40ae4e85560d0caea9c38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_170
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 257
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41329ed3d7c85874dbb769cd166b27fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_171
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 253
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d50fc95dc8a2c4388e9b7718c8dc70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_172
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 253
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5b574bbc632df48a5b5a0ab146f868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_173
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 253
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126e32e6887bc4e40968b6283af9c370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_174
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 253
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671097982c6691445ab18ae2b706cb32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_175
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 253
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c1665920d557248a2e872876240c10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_176
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 253
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b913b9657bde84dac2dc0df337f1ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_177
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 253
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f271323d75dbe48ab6b5cf2b0f3a6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_178
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 253
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8e0d74b066f4742a1e45bdd64a5909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_179
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 253
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906b856eb9338cb46af2b542d9f08967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_180
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 253
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6f9b9985733ff4cbfec6e4fa6445be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_181
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 253
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c499311909076045ae1267d7672750c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_182
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 213
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c99b6b60484cc4087fa139fc055553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_183
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 213
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba70bc2682276046871b778373eb440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_184
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 213
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2537aa990dd47f40b0ae0514db2f1a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_185
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 213
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec73329bf2a6bf941bba9c0c6a150ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_186
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 213
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a17be200f308ff43a486b516b5a0be3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_187
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 213
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f1f40723152814c9a239bc7e889073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_188
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 213
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585139f604a42d34997379ec9ade5e81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_189
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 213
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25683745fc5e0064ca8b29fc3f036f61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_190
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 213
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66e101d49e478b4aa06f25665474860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_191
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 213
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb0730d66e7d774789aaf22b8f5a830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_192
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 213
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8330980e7c096ab47b2f0917cfcf952a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_193
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 213
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5f45d89a6364f4dae1432684026dc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_194
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 209
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0e06dca0de4854398d82accd398829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_195
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 209
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bed5e8de5b6c3f409a25672e81d27b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_196
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 209
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df7dd1c795a40a4c9426671e9ba50c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_197
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 193
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7087c0c220734fd40ae0b8f207456947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_198
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 193
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb29119fb7105549882227a8a10b2d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_199
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 193
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564554c6431b6f4291fc908d2d097bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_200
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 193
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a9332bdade1cc42bce1cf65fb8d108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_201
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 193
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9816bdcb2e6f25e4fb8d7561f42c87ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_202
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 193
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3952866f850c849a38d3a98d48847a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_203
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 193
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2715a3bb552c3384f80eac870426142b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_204
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 193
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed9cc44076eab44e871ec60b839effa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_205
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 193
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5e5669f44e1064388d5a4fa69df637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_206
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 193
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be324fb63fdd9b41ba1c96a627a9c34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_207
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 193
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b820ea5e60a284081a9d7e4c9e0bd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_208
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 193
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bbba4c466635f4cb8bca7dca43a588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_209
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 149
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebd83fdde80b084cbd534a6c0b7f2d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_210
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 149
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f0150017e05404380d8af38c409b4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_211
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 149
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fc87d9dd2699b4ab27ac75f51e8000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_212
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 149
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6824d340c7dabb24485d3a18f927c8ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_213
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 149
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ab6f56d55c0a5489e5763c19eb70cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_214
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 149
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dbc9700a509f7488c1e46245629c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_215
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 149
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6edffefc020ab44a37f6c57480bd72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_216
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 149
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fc87b6e6c292844a39d9f5ae459791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_217
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 149
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceca9c434dbc8744c9facce943f1511f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_218
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 149
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c3cab729f4cc41bfa05a017bcfcf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_219
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 149
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e84914d14e98b4487b9410ed5ca38f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_220
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 149
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f33ff173f1f1c341bf65043e3b16bbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_221
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 149
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee57716809bbdbd4e828693ed982fa77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_222
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 149
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095062d6f7037384eab66efd1028ffd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_223
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 149
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6e1fa33a62a9141863d002c7c9b3a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_224
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 149
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddbb60810c397b4db85b3b46d38b6d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_225
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 137
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee53e17a2bf5344792ce93cfafa6428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_226
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 137
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8b232e59d53dc48b35c918d4226d8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_227
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 137
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6cf4f756131304fb7fc06ccc72c614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_228
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 137
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c06fe085c5a79488e311b252e96dd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_229
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 137
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d25ec5783d754da1a1b9e74c1023f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_230
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 137
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfcb01393c6ba84bb3fde73f8f9fbd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_231
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 137
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9b4774d140e304da19fee72a945a18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_232
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 137
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4af089d1edd814f84f297c1a935145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_233
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 137
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f382913293500a44da535c1dce311280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_234
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 133
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360f6e56ad5aacb40a8157f936111c61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_235
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 81
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcf330301a10944cba74271769741f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_236
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a559474b564ef4142bcc4030a2d657c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_237
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 81
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c452fe1c8602a844d8dc064eeb0d4a91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_238
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 81
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f07af0da79b5f4f8b064c96143202e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_239
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 81
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468b0e0f7ee89dc44bd315507eb8d206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_240
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 81
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac0007d5fe3b2a429fa80f5233e2eb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_241
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 81
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a39c7506302c1409c1b886b9504efe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_242
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 81
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7b234bdf6929f4d8a62f40e63f31bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_243
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 81
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42131ceae6cd04f41b010e51ee8aa739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_244
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 81
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61db050e43a4028438d42a12d7464e69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_245
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 81
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eae39521bb068449afef3d513d56d04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_246
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 81
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405e6125bb18aac479b9fefd5f9ac970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_247
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 85
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34f9588caff1d04699dd60f55575725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_248
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 84
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584f2defaca64cb40ba9af5b2f793ff5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_249
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 85
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896990ab3e4ebdc42bd864f83dfd2bb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_250
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 81
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5947b1786c8b064782f884fc8f30124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_251
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 81
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fb0f3b8b32d8f48b19ac1c2d8b2ee8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_252
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 81
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d3f299b4f8a8f489ed0b0431901285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_253
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 81
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee13997b1e59c04ca092f7b0f072d53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_254
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 81
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1b185a6194fc74cb06293ee7c7db91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_255
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 81
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1309a0ba42b315e48810b2941bb31b3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_256
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 81
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6baf03213106742ab1d8466fd145f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_257
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 81
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb626b30aaee8747b4fa3bdfc747024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_258
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 81
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae14c0d37d5235147aee21a8a8cf5ab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_259
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 81
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad69b86a028a6f4b8f61ead26eb7408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_260
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 81
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee803f4e20822294691824ccf0231748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_261
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 25
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215e9592e65b8c4459fc58e69e19a12c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_262
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 25
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3959fe20c8d8e074da2726a957f66445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_263
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 25
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afa11118beb0b84393276bb41a6fc91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_264
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 25
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b988df24fbafa8e48941d7d52b065a30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_265
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 25
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052a120086f9617478cd7939d4470854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_266
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 25
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae20b9849ff80a4cbba9a7c65e9f38e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_267
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 25
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e61dd11b8df5e047881a509570c1bd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_268
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 25
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df8b98164723d04a8cf5eca9e44f3af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_269
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 25
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61febcb5cf3d9d04e8ca370c87e2c841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_270
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 25
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683c8552c5068c949b231e7de13b9945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_271
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 25
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd7b58769ff9a24791c8833628a6f61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_272
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 25
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29c38c44f60e9d4c978df6a7ce014cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_273
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 25
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a301951fd5c974d92dd65d6f337d05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_274
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998f839ffde4abc4780a668b8934d710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_275
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d34dcbf80082c4d9f2ea113a43b701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_276
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f85676e78dc4e34da893f082c89ec7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_277
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b786cb63bbce9b45b891fd3615a28be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_278
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b424c8258c2aa5b43942b2a3b3ec2805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_279
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8ce8a947e19c241aae62f60ed772a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_280
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ab79ab82cf5f4f987e5b876a0f553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_281
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca1c467eeb79104da4f8fca1dc6d0d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_282
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac338a6723fad2145b9d326f7ec393bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_283
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 25
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a748a41bf78cba9439340fb4c83447c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_284
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 25
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a1a6a00150c74da725c1f35a04ba0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermetroidsamus_285
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 6
+        width: 240
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4afbe3416344034b9987c24c7323882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 354fa042346091d429ad3995191bbcbe
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
