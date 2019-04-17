@@ -24,24 +24,15 @@ public class EnemyMovement : MonoBehaviour
 
     private void Move()
     {
+        GetComponent<Rigidbody2D>().velocity = new Vector2(movementSpeed * direction, GetComponent<Rigidbody2D>().velocity.y);
         if (stoppedTouchingGround)
         {
-            Vector2 moveVelocity = new Vector2(movementSpeed * direction, GetComponent<Rigidbody2D>().velocity.y);
-            GetComponent<Rigidbody2D>().velocity = moveVelocity;
-            if (GetComponent<Animator>().GetBool("isTouchingGround")) {
-                stoppedTouchingGround = false;
-            }
+          stoppedTouchingGround = !GetComponent<Animator>().GetBool("isTouchingGround");   
         }
         else {
-            if (GetComponent<Animator>().GetBool("isTouchingGround"))
-            {
-                Vector2 moveVelocity = new Vector2(movementSpeed * direction, GetComponent<Rigidbody2D>().velocity.y);
-                GetComponent<Rigidbody2D>().velocity = moveVelocity;
-            }
-            else
+            if (!GetComponent<Animator>().GetBool("isTouchingGround"))
             {
                 flipPlayerSprite();
-                direction *= -1f;
                 stoppedTouchingGround = true;
             }
         }
@@ -53,5 +44,6 @@ public class EnemyMovement : MonoBehaviour
     private void flipPlayerSprite()
     {
         transform.localScale = new Vector2(transform.localScale.x * -1,transform.localScale.y);
+        direction *= -1f;
     }
 }
