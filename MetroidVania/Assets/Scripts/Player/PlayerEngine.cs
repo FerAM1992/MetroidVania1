@@ -113,8 +113,8 @@ public class PlayerEngine : MonoBehaviour {
 
     private void checkGround()
     {
-        wallRayChecker = playerAnimator.GetBool("RayTouchingWall") ;
-        groundRayChecker = playerAnimator.GetBool("RayIsTouchingGround");
+        wallRayChecker = playerAnimator.GetBool("isTouchingWall") ;
+        groundRayChecker = playerAnimator.GetBool("isTouchingGround");
         playerAnimator.SetBool("Iddling", GetComponent<Rigidbody2D>().velocity.Equals(new Vector2(0, 0)));
         //print(GetComponent<Rigidbody2D>().velocity); 
     }

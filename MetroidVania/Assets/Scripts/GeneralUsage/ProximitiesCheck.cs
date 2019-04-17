@@ -9,6 +9,7 @@ public class ProximitiesCheck : MonoBehaviour
     [SerializeField] int maxNumberOfGroundRays = 4;
     [SerializeField] float wallRayMaxLength = 0.7f;
     [SerializeField] float groundRayMaxLength = 0.63f;
+    [SerializeField] bool needMoreThanOneRayToTouchground = false;
 
 
 
@@ -22,22 +23,31 @@ public class ProximitiesCheck : MonoBehaviour
     {
         //Horizontal ray casting checking
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector2.right), Color.yellow);     
-        GetComponent<Animator>().SetBool("RayTouchingWall", Physics2D.Raycast(transform.position, determineVerticalRayOrientation(),
+        GetComponent<Animator>().SetBool("isTouchingWall", Physics2D.Raycast(transform.position, determineVerticalRayOrientation(),
             wallRayMaxLength, 1 << LayerMask.NameToLayer("Ground")));
-        GetComponent<Animator>().SetBool("RayIsTouchingGround", dynamicVerticalRayGenerator());
+        GetComponent<Animator>().SetBool("isTouchingGround", dynamicVerticalRayGenerator());
     }
 
     private bool dynamicVerticalRayGenerator() {
-        bool isTouchingGround = false;
+        bool isTouchingGround = needMoreThanOneRayToTouchground;
         float maxX = GetComponent<BoxCollider2D>().bounds.min.x;
         float maxY = GetComponent<BoxCollider2D>().bounds.min.y;
         float raySeparation = (1 - .001f) / maxNumberOfGroundRays;
         for (int i = 0; i < maxNumberOfGroundRays; i++) {
             Vector2 currentRayPosition = new Vector2(maxX + raySeparation, maxY);
             Debug.DrawRay(currentRayPosition, transform.TransformDirection(Vector2.down), Color.blue);
-            isTouchingGround = isTouchingGround || 
+            if (needMoreThanOneRayToTouchground)
+            {
+                isTouchingGround = isTouchingGround &&
                 Physics2D.Raycast(currentRayPosition, transform.TransformDirection(Vector2.down), groundRayMaxLength,
                 1 << LayerMask.NameToLayer("Ground"));
+            }
+            else {
+                isTouchingGround = isTouchingGround ||
+                Physics2D.Raycast(currentRayPosition, transform.TransformDirection(Vector2.down), groundRayMaxLength,
+                1 << LayerMask.NameToLayer("Ground"));
+            }
+            
             maxX = maxX + raySeparation;
         }
         return isTouchingGround;
