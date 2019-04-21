@@ -164,13 +164,13 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.295
+  m_DeadZoneWidth: 0.1
   m_DeadZoneHeight: 0.405
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
   m_SoftZoneHeight: 0.8
-  m_BiasX: 0
+  m_BiasX: 0.0000018732889
   m_BiasY: 0
   m_GroupFramingMode: 2
   m_AdjustmentMode: 2
@@ -6446,7 +6446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.659817, y: -1.87, z: -10}
+  m_LocalPosition: {x: 3.4001858, y: 10.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1993567537}
@@ -6478,7 +6478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 600565851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.001851, y: 0.06, z: -10}
+  m_LocalPosition: {x: 3.399167, y: 10.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 856707863}
@@ -6698,6 +6698,8 @@ MonoBehaviour:
     m_ParentHash: 756556552
   - m_Hash: -1407378526
     m_ParentHash: 756556552
+  - m_Hash: -1546996312
+    m_ParentHash: 756556552
 --- !u!1 &1302456090 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8201264703376496424, guid: 6fb131f377f863d409b920ee089b7b61,
@@ -6717,7 +6719,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.020612001, y: 0.0284985}
+  m_Offset: {x: -0.07813847, y: 0.02849853}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6728,7 +6730,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2255807, y: 1.6854584}
+  m_Size: {x: 0.72423244, y: 1.6854584}
   m_EdgeRadius: 0
 --- !u!4 &1302456093 stripped
 Transform:
@@ -6776,9 +6778,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
-  jumpForce: 12.5
+  jumpForce: 10.5
   climbingSpeed: 5.31
-  maximumJumpVelocity: 9
+  maximumJumpVelocity: 11.5
   fallingGravityMulti: 2.5
 --- !u!114 &1302456097
 MonoBehaviour:
@@ -7200,7 +7202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519064979}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0100007, y: 0.06, z: -10}
+  m_LocalPosition: {x: 3.3899996, y: 10.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 258347396}
@@ -7276,7 +7278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546427622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.659817, y: -1.87, z: -10}
+  m_LocalPosition: {x: 3.4001858, y: 10.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2080948704}
@@ -16079,12 +16081,12 @@ PrefabInstance:
     - target: {fileID: 8201264703376496405, guid: 6fb131f377f863d409b920ee089b7b61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.67
+      value: 3.39
       objectReference: {fileID: 0}
     - target: {fileID: 8201264703376496405, guid: 6fb131f377f863d409b920ee089b7b61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.87
+      value: 10.55
       objectReference: {fileID: 0}
     - target: {fileID: 8201264703376496405, guid: 6fb131f377f863d409b920ee089b7b61,
         type: 3}
