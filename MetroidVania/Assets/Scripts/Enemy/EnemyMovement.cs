@@ -36,8 +36,7 @@ public class EnemyMovement : MonoBehaviour
                 stoppedTouchingGround = true;
             }
         }
-        
-        
+      
     }
 
 

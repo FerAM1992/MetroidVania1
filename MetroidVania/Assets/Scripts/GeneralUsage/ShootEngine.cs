@@ -7,7 +7,8 @@ public class ShootEngine : MonoBehaviour
     [Header("Shoot attributes")]
     [SerializeField] GameObject shootPrefab;
     [SerializeField] float shootSpeed = 10f;
-
+    
+    public static bool isAiming = false;
     Coroutine firingCoroutine;
 
     GameObject aimingArea;
@@ -16,6 +17,7 @@ public class ShootEngine : MonoBehaviour
     void Start()
     {
         aimingArea = GameObject.Find("PlayerAim");
+        aimingArea.active = false;
     }
 
     // Update is called once per frame
@@ -27,9 +29,19 @@ public class ShootEngine : MonoBehaviour
 
     private void shoot()
     {
+        if (Input.GetKeyDown(KeyCode.LeftShift) && GetComponent<Animator>().GetBool("isTouchingGround")) {
+            aimingArea.active = true;
+            isAiming = true;
+            GetComponent<Animator>().SetBool("Running", false);
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        } else if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            aimingArea.active = false;
+            isAiming = false;
+        }
+
         if (Input.GetButtonDown("Fire1"))
         {
-            firingCoroutine = StartCoroutine(FireContinuosly());
+            firingCoroutine = StartCoroutine(FireToMousePosition());
         }
         if (Input.GetButtonUp("Fire1"))
         {
@@ -39,18 +51,24 @@ public class ShootEngine : MonoBehaviour
 
 
 
-    IEnumerator FireContinuosly()
+    IEnumerator FireToMousePosition()
     {
-        Vector2 playerPosition = new Vector2(transform.position.x, transform.position.y);
-     Vector2 targetPosition = (TargetEngine.mousePosition - playerPosition).normalized;
-     GameObject laser = Instantiate(shootPrefab,new Vector3(transform.position.x, transform.position.y + .3f, transform.position.z)
-                        , Quaternion.identity) as GameObject;
-
-        laser.GetComponent<Rigidbody2D>().velocity += targetPosition* shootSpeed * Time.deltaTime;
-
-       
+     Vector2 playerPosition = new Vector2(transform.position.x, transform.position.y);
+        GameObject laser = Instantiate(shootPrefab, 
+            new Vector3(transform.position.x, transform.position.y + .3f, transform.position.z)
+            , Quaternion.identity) as GameObject;
+        Vector2 targetPosition;
+        if (isAiming)
+        {
+            targetPosition = (TargetEngine.mousePosition - playerPosition).normalized;
+        }
+        else {
+            targetPosition = new Vector2(transform.localScale.x, 0);
+        }
+           
+     
+    laser.GetComponent<Rigidbody2D>().velocity += targetPosition* shootSpeed * Time.deltaTime;
      yield return new WaitForSeconds(0.5f);
-
     }
 
     
