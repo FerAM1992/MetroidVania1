@@ -8,12 +8,6 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] float movementSpeed = 2f;
     bool stoppedTouchingGround = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class ImpactEngine : MonoBehaviour
 {
+
+    [SerializeField] int damge = 10;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag.Equals("enemy"))
         {
-            print("YOU GOT ME");
+            int currentLife = collision.GetComponent<DamageDealer>().getLife();
+            collision.GetComponent<DamageDealer>().setLife(currentLife - damge);
         }
     }
 }

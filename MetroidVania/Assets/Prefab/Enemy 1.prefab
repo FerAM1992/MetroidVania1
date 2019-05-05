@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6026203402650926291}
   - component: {fileID: 6026203402650926248}
   - component: {fileID: 6026203402650926249}
+  - component: {fileID: 1421138686956210457}
   m_Layer: 12
   m_Name: Enemy 1
   m_TagString: enemy
@@ -179,3 +180,15 @@ MonoBehaviour:
   wallRayMaxLength: 0.7
   groundRayMaxLength: 0.63
   needMoreThanOneRayToTouchground: 1
+--- !u!114 &1421138686956210457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6026203402650926290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b286b2ecd4f2ed4d942ef69b7f3c80a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
