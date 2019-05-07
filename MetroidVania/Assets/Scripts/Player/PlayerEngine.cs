@@ -75,7 +75,7 @@ public class PlayerEngine : MonoBehaviour {
                     }
                     jumped = true;
                 }
-                GetComponent<Animator>().SetBool("Jumping", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y) > Mathf.Epsilon);
+                GetComponent<Animator>().SetBool("Jumping",!groundRayChecker);
             }
         
         
