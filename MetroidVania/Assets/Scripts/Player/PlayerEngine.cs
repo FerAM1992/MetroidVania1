@@ -116,7 +116,9 @@ public class PlayerEngine : MonoBehaviour {
     {
         wallRayChecker = GetComponent<Animator>().GetBool("isTouchingWall") ;
         groundRayChecker = GetComponent<Animator>().GetBool("isTouchingGround");
-        GetComponent<Animator>().SetBool("Iddling", GetComponent<Rigidbody2D>().velocity.Equals(new Vector2(0, 0)));
+        bool isIddling = !GetComponent<Animator>().GetBool("Jumping") && !GetComponent<Animator>().GetBool("Running")
+            && groundRayChecker;
+        GetComponent<Animator>().SetBool("Iddling", isIddling);
         //print(GetComponent<Rigidbody2D>().velocity); 
     }
 

@@ -42,10 +42,15 @@ public class ShootEngine : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             firingCoroutine = StartCoroutine(FireToMousePosition());
+            if (GetComponent<Animator>().GetBool("Iddling")) {
+                GetComponent<Animator>().SetBool("IddleShooting", true);
+            }
+            
         }
         if (Input.GetButtonUp("Fire1"))
         {
             StopCoroutine(firingCoroutine);
+            GetComponent<Animator>().SetBool("IddleShooting", false);
         }
     }
 

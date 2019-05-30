@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: 8396e395ce32f3b45ac441d8d192ea6c
+guid: 2e65de09f453796498a2786ccf4de4ed
 TextureImporter:
   fileIDToRecycleName:
-    21300000: MainCharacter_0
-    21300002: MainCharacter_1
+    21300000: RunIddle_0
+    21300002: RunIddle_1
+    21300004: RunIddle_2
+    21300006: RunIddle_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -47,7 +49,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 49
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -86,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainCharacter_0
+      name: RunIddle_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 68
-        width: 38
-        height: 57
+        x: 9
+        y: 74
+        width: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16d52e06010178b4792a9f2dd773c625
+      spriteID: 9fa2a18239cea2643bf5d6837a1e1646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MainCharacter_1
+      name: RunIddle_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 4
-        width: 38
-        height: 57
+        x: 77
+        y: 72
+        width: 46
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +122,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2546e6c1ea7640943be5d0f25c48d068
+      spriteID: 7a007f5a793b89e4098e1ff20adf9f4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunIddle_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e68ee6eccfeff48af777c3775ae7d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunIddle_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 12
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b4c941180c80e49bac5168d9e14cf9
       vertices: []
       indices: 
       edges: []
@@ -128,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: dc126451a4eb27642a1639ae6a337865
+    spriteID: 9a32941991b0ca54a9e69bed7838dbbd
     vertices: []
     indices: 
     edges: []
