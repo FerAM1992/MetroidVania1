@@ -10,6 +10,7 @@ public class ProximitiesCheck : MonoBehaviour
     [SerializeField] float wallRayMaxLength = 0.7f;
     [SerializeField] float groundRayMaxLength = 0.63f;
     [SerializeField] bool needMoreThanOneRayToTouchground = false;
+    [SerializeField] float raysSeparation = 0.001f;
 
 
 
@@ -32,9 +33,9 @@ public class ProximitiesCheck : MonoBehaviour
         bool isTouchingGround = needMoreThanOneRayToTouchground;
         float maxX = GetComponent<BoxCollider2D>().bounds.min.x;
         float maxY = GetComponent<BoxCollider2D>().bounds.min.y;
-        float raySeparation = (1 - .001f) / maxNumberOfGroundRays;
+        float raySeparation = (1 - raysSeparation) / maxNumberOfGroundRays;
         for (int i = 0; i < maxNumberOfGroundRays; i++) {
-            Vector2 currentRayPosition = new Vector2(maxX + raySeparation, maxY);
+            Vector2 currentRayPosition = new Vector2(maxX, maxY);
             Debug.DrawRay(currentRayPosition, transform.TransformDirection(Vector2.down), Color.blue);
             if (needMoreThanOneRayToTouchground)
             {

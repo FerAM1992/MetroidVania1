@@ -21,6 +21,8 @@ public class PlayerEngine : MonoBehaviour {
     bool canJump = true;
     bool wallRayChecker;
     bool groundRayChecker;
+    bool aim45;
+    bool aim315;
 
     //cached component references
     float initialGravityScale;
@@ -38,6 +40,7 @@ public class PlayerEngine : MonoBehaviour {
 	void Update () {
         checkGround();
         if (!ShootEngine.isAiming) {
+            AimingPosition();
             Move();
             jump();
             flipPlayerSprite();
@@ -107,6 +110,15 @@ public class PlayerEngine : MonoBehaviour {
             Vector2 climbVelocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, flowControl);
             GetComponent<Rigidbody2D>().velocity = climbVelocity;
             GetComponent<Animator>().SetBool("Climbing", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y) > Mathf.Epsilon);
+        }
+    }
+
+    private void AimingPosition() {
+        aim45 = CrossPlatformInputManager.GetAxis("Aim45") > 0;
+        aim315 = CrossPlatformInputManager.GetAxis("Aim315") > 0;
+        if (!aim45 || !aim315) {
+            GetComponent<Animator>().SetBool("Aim315", aim315);
+            GetComponent<Animator>().SetBool("Aim45", aim45);
         }
     }
 
