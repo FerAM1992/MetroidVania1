@@ -10314,7 +10314,7 @@ PrefabInstance:
     - target: {fileID: 2491185962345123603, guid: 2eeba204024b1da46892141e8c93bf63,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6148543
+      value: -2.6136746
       objectReference: {fileID: 0}
     - target: {fileID: 2491185962345123603, guid: 2eeba204024b1da46892141e8c93bf63,
         type: 3}
@@ -10369,7 +10369,7 @@ PrefabInstance:
     - target: {fileID: 2491185963399408500, guid: 2eeba204024b1da46892141e8c93bf63,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6148543
+      value: -2.6136746
       objectReference: {fileID: 0}
     - target: {fileID: 2491185963399408500, guid: 2eeba204024b1da46892141e8c93bf63,
         type: 3}
@@ -10556,7 +10556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1302456099, guid: 6fb131f377f863d409b920ee089b7b61, type: 3}
       propertyPath: shootSpeed
-      value: 1500
+      value: 3500
       objectReference: {fileID: 0}
     - target: {fileID: 1302456098, guid: 6fb131f377f863d409b920ee089b7b61, type: 3}
       propertyPath: maxNumberOfGroundRays
@@ -10564,7 +10564,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1302456098, guid: 6fb131f377f863d409b920ee089b7b61, type: 3}
       propertyPath: raysSeparation
-      value: 0.52
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302456098, guid: 6fb131f377f863d409b920ee089b7b61, type: 3}
+      propertyPath: groundRayMaxLength
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8201264703376496427, guid: 6fb131f377f863d409b920ee089b7b61,
         type: 3}
@@ -10613,11 +10617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1302456092, guid: 6fb131f377f863d409b920ee089b7b61, type: 3}
       propertyPath: m_Offset.x
-      value: -0.13854182
+      value: -0.083807945
       objectReference: {fileID: 0}
     - target: {fileID: 1302456092, guid: 6fb131f377f863d409b920ee089b7b61, type: 3}
       propertyPath: m_Size.x
-      value: 0.40260673
+      value: 0.5120745
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fb131f377f863d409b920ee089b7b61, type: 3}

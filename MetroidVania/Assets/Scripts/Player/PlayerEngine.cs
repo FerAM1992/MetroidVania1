@@ -18,7 +18,6 @@ public class PlayerEngine : MonoBehaviour {
     //State
     bool isAlive = true;
     bool jumped = false;
-    bool canJump = true;
     bool wallRayChecker;
     bool groundRayChecker;
     bool aim45;
@@ -26,9 +25,6 @@ public class PlayerEngine : MonoBehaviour {
 
     //cached component references
     float initialGravityScale;
-
-
-    [SerializeField] float fallingGravityMulti = 2.5f;
 
     // Use this for initialization
     void Start () {
@@ -39,13 +35,10 @@ public class PlayerEngine : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         checkGround();
-        if (!ShootEngine.isAiming) {
-            AimingPosition();
-            Move();
-            jump();
-            flipPlayerSprite();
-            climbLadder();
-        }
+        AimingPosition();
+        Move();
+        jump();
+        flipPlayerSprite();
     }
 
 
@@ -67,21 +60,19 @@ public class PlayerEngine : MonoBehaviour {
     private void jump() {
        
 
-         if (groundRayChecker
-            || GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ladder")))
+         if (groundRayChecker)
             {
-                if (CrossPlatformInputManager.GetButtonDown("Jump"))
+            if (CrossPlatformInputManager.GetButtonDown("Jump"))
+            {
+                if (GetComponent<Rigidbody2D>().velocity.y <= maximumJumpVelocity)
                 {
-                    if (GetComponent<Rigidbody2D>().velocity.y <= maximumJumpVelocity)
-                    {
-                        GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpForce;
-                    }
-                    jumped = true;
+                    GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpForce;
                 }
-                GetComponent<Animator>().SetBool("Jumping",!groundRayChecker);
+                jumped = true;
+            }  
             }
-        
-        
+        GetComponent<Animator>().SetBool("Jumping", !groundRayChecker);
+
     }
 
     private void flipPlayerSprite() {
@@ -91,27 +82,6 @@ public class PlayerEngine : MonoBehaviour {
         }
     }
 
-
-    private void climbLadder()
-    {
-
-        if (!GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Ladder")))
-        {
-            GetComponent<Animator>().SetBool("Climbing", false);
-            jumped = false;
-            GetComponent<Rigidbody2D>().gravityScale = initialGravityScale;
-            return;
-        }
-        if (!CrossPlatformInputManager.GetButton("Jump") && !jumped)
-        {
-            GetComponent<Animator>().SetBool("Jumping", false);
-            GetComponent<Rigidbody2D>().gravityScale = 0f;
-            float flowControl = CrossPlatformInputManager.GetAxis("Vertical") * climbingSpeed;
-            Vector2 climbVelocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, flowControl);
-            GetComponent<Rigidbody2D>().velocity = climbVelocity;
-            GetComponent<Animator>().SetBool("Climbing", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y) > Mathf.Epsilon);
-        }
-    }
 
     private void AimingPosition() {
         aim45 = CrossPlatformInputManager.GetAxis("Aim45") > 0;
@@ -131,7 +101,7 @@ public class PlayerEngine : MonoBehaviour {
         bool isIddling = !GetComponent<Animator>().GetBool("Jumping") && !GetComponent<Animator>().GetBool("Running")
             && groundRayChecker;
         GetComponent<Animator>().SetBool("Iddling", isIddling);
-        //print(GetComponent<Rigidbody2D>().velocity); 
+        GetComponent<Animator>().SetFloat("VerticalVelocity", GetComponent<Rigidbody2D>().velocity.y);
     }
 
 
